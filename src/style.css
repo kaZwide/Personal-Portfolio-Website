@@ -305,6 +305,13 @@ nav {
   background-color: white;
 }
 
+.contact-note {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  text-align: center;
+  color: #666;
+}
+
 .contact-intro {
   max-width: 650px;
   margin: 0 auto 30px;

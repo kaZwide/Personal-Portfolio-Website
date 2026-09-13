@@ -57,9 +57,8 @@ contactForm.addEventListener("submit", (event) => {
     }
 
 
-    formMessage.textContent = 
-    `Thank you, ${name}! Your message has been recieved.`;
-
+    formMessage.textContent =
+  `Thanks, ${name}! Your message details are valid.`;
     formMessage.classList.add("success");
 
     contactForm.reset();
