@@ -10,7 +10,7 @@ https://kazwide.github.io/Personal-Portfolio-Website/
 
 ## About the Project
 
-This portfolio was built as a central place to present my development projects and professional background as an Information Science graduate transitioning into technology.
+This portfolio was built as a central place to present my development projects and professional background as an Information Science graduate building practical experiences in software and web development.
 
 The website demonstrates my practical experience with front-end development, responsive web design, JavaScript interactivity, Git version control, and website deployment.
 
@@ -43,7 +43,9 @@ A responsive weather application that allows users to search for current weather
 
 The project uses JavaScript, Axios, and a REST API to retrieve and display weather information dynamically.
 
-**Technologies:** HTML, CSS, JavaScript, REST API, Axios
+**Technologies:** HTML, CSS, JavaScript, Git, GitHub Pages
+
+**Live Website:** https://kazwide.github.io/Personal-Portfolio-Website/
 
 ### Personal Portfolio Website
 
@@ -84,8 +86,7 @@ Future improvements may include:
 
 Information Science Graduate | Aspiring Software Developer
 
-Interested in software development, web development, and cybersecurity.
-
+Building practical skills in web development and software development, with a growing interest in cybersecurity.
 ---
 
 Designed and built with HTML, CSS, and JavaScript.
