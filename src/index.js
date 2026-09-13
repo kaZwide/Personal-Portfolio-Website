@@ -45,7 +45,7 @@ contactForm.addEventListener("submit", (event) => {
     formMessage.classList.remove("error", "success");
 
     if (name === "" || email === "" || message === "") {
-        formMessage.textContent = "Please cpmplete all fields.";
+        formMessage.textContent = "Please complete all fields.";
         formMessage.classList.add("error");
         return;
     }
