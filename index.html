@@ -13,6 +13,13 @@
   <header>
     <nav>
       <a href="#home" class="logo">Ntokozo Nxumalo</a>
+      <button
+      class="menu-toggle"
+      aria-label="open navigation menu"
+      aria-expanded="false"
+      >
+         ☰
+    </button>
 
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
@@ -138,6 +145,12 @@
         <article class="project-card">
           <p class="project-type">WEB APPLICATION</p>
 
+          
+         <img src="images/Screenshot 2026-09-13 220841.png"
+         alt="Screenshot of weather App"
+         class="project-image"
+         />
+
           <h3>Weather App</h3>
 
           <p>
@@ -154,11 +167,11 @@
           </div>
 
           <div class="project-links">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://plus-final-project-2.netlify.app/" target="_blank" rel="noopener noreferrer">
               Live Demo
             </a>
 
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/cassienxumalo/Plus-final-Project-2.git" target="_blank" rel="noopener noreferrer">
               View Code
             </a>
           </div>
@@ -186,11 +199,12 @@
 
           <div class="project-links">
             <a href="#home">
+            
               Live Demo
             </a>
 
             <a
-              href="https://github.com/kaZwide/Personal-Portfolio-Website"
+              href="https://github.com/kaZwide/Personal-Portfolio-Website.git"
               target="_blank"
               rel="noopener noreferrer">
               View Code
@@ -213,17 +227,18 @@
         or one of my projects, I'd be happy to connect.
       </p>
 
-      <form class="contact-form">
+      <form class="contact-form" id="contact-form" novalidate>
         <label for="name">Name</label>
-        <input type="text" id="name" name="name" required>
+        <input type="text" id="name" name="name">
 
         <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
+        <input type="email" id="email" name="email">
 
         <label for="message">Message</label>
-        <textarea id="message" name="message" required></textarea>
-
+        <textarea id="message" name="message"></textarea>
+        
         <button type="submit">Send Message</button>
+         <p id="form-message" class="form-message"></p>
       </form>
     </section>
 
